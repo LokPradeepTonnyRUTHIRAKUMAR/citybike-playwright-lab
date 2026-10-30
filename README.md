@@ -43,7 +43,11 @@ This is a fictional service. Never use actual customer data or real credentials.
 - If the `npx playwright install chromium` command times out, check the network/proxy settings. On locked-down networks, prepare each machine before class.
 - `npm run check:api` verifies the standalone application with five API/HTTP checks **without installing npm packages**.
 - `npm run check:files` verifies all project files, npm packages and Playwright Chromium once installation is complete.
-- The workflow file in `.github/workflows/playwright.yml` and four `test.skip(...)` exercises are incomplete **intentionally**: students must implement them. Initially, 2 smoke tests pass and 4 challenges are skipped.
+
+- All four challenge exercises have been implemented.
+- The GitHub Actions workflow runs the complete Playwright E2E test suite.
+- All six tests pass locally with zero skipped tests.
+
 - The tests and application run locally; **no Python, Docker, Jenkins, API keys, .env files, or previous CityBike Git lab are needed**.
 - Do not use `npm init playwright@latest`: that creates a different project and can overwrite or complicate the workshop files.
 
